@@ -34,7 +34,7 @@ class SpatialTransformer(Layer):
     """
     N-D Spatial Transformer Tensorflow / Keras Layer
 
-    The Layer can handle both affine and dense transforms. 
+    The Layer can handle both affine and dense transforms.  #是什么dense transforms
     Both transforms are meant to give a 'shift' from the current position.
     Therefore, a dense transform gives displacements (not absolute locations) at each voxel,
     and an affine transform gives the *difference* of the affine matrix from 
